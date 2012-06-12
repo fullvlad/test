@@ -6,7 +6,8 @@ int main() {
 	while (nr--) {
 		int n;
 		fscanf(f, "%d", &n);
-		printf("%d ", n);
+		if (n%2==0)
+			printf("%d ", n);
 	}
 	return 0;
 }
