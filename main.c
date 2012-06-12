@@ -6,7 +6,7 @@ int main() {
 	while (nr--) {
 		int n;
 		fscanf(f, "%d", &n);
-		printf("%d ", n);
+		printf("%d ",2*n+1);
 	}
 	return 0;
 }
